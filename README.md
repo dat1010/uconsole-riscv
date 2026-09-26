@@ -1,3 +1,8 @@
+> **RISC-V uConsole port:** See [build and device instructions](uconsole/README.md)
+> for this experimental community build targeting Ubuntu 22.04 riscv64.
+> Read the [validation results and device-testing limits](uconsole/VALIDATION.md).
+> The upstream installation instructions below do not install this custom build.
+
 <p align="center"><strong>Codex CLI</strong> is a coding agent from OpenAI that runs locally on your computer.
 <p align="center">
   <img src="https://github.com/openai/codex/blob/main/.github/codex-cli-splash.png" alt="Codex CLI splash" width="80%" />

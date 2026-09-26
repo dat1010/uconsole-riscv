@@ -287,6 +287,8 @@ fn install_network_seccomp_filter_on_current_thread(
             TargetArch::x86_64
         } else if cfg!(target_arch = "aarch64") {
             TargetArch::aarch64
+        } else if cfg!(target_arch = "riscv64") {
+            TargetArch::riscv64
         } else {
             unimplemented!("unsupported architecture for seccomp filter");
         },
